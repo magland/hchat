@@ -2,7 +2,7 @@ import { VercelRequest, VercelResponse } from "@vercel/node";
 
 const defaultAllowedOrigins = [
   "http://localhost:3000",
-  "https://hchat.vercel.app",
+  "https://hchat-five.vercel.app",
 ];
 const ALLOWED_ORIGINS = (
   process.env["ALLOWED_ORIGINS"] || defaultAllowedOrigins.join(",")

@@ -1,7 +1,7 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import crypto from "crypto";
 import PubNub, { GrantTokenParameters, GrantTokenPermissions } from "pubnub";
-import allowCors from "./allowCors";
+import allowCors from "./allowCors"; // remove .js for local dev
 import {
   InitiatePublishResponse,
   InitiateSubscribeResponse,
@@ -16,7 +16,7 @@ import {
   isPublishTokenObject,
   isSubscribeRequest,
   isSubscribeTokenObject,
-} from "./types";
+} from "./types"; // remove .js for local dev
 
 const PUBNUB_SUBSCRIBE_KEY = process.env.PUBNUB_SUBSCRIBE_KEY;
 if (!PUBNUB_SUBSCRIBE_KEY) {

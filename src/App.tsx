@@ -1,6 +1,6 @@
 import { useEffect, useReducer, useState } from "react";
 import { HchatClient, generateKeyPair } from "./HchatClient/HchatClient";
-import { PubsubMessage } from "./types";
+import { PubsubMessage } from "./HchatClient/types";
 
 type MessagesState = PubsubMessage[];
 

@@ -11,7 +11,7 @@ import {
   isPubsubMessage,
   isSubscribeResponse,
   isSubscribeTokenObject,
-} from "../types";
+} from "./types";
 
 import PubNub from "pubnub";
 
