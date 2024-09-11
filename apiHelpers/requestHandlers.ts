@@ -39,9 +39,9 @@ if (!SYSTEM_PRIVATE_KEY) {
   throw new Error("Missing SYSTEM_PRIVATE_KEY");
 }
 
-const currentPublishDifficulty = 11;
+const currentPublishDifficulty = 13;
 const currentPublishDelay = 500;
-const currentSubscribeDifficulty = 11;
+const currentSubscribeDifficulty = 13;
 const currentSubscribeDelay = 500;
 
 const pubnubClient = new PubNub({
